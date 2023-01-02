@@ -69,4 +69,4 @@ stage('2test&build'){
 		}
 		*/
 }
-	
+}
