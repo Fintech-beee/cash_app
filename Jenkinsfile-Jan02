@@ -7,7 +7,7 @@ stages{
 	stage('1getcode'){
 	steps{
 	sh "echo 'cloning a new application version' "
-	git branch: 'dev', credentialsId: 'gitHubCredentials', url: 'https://github.com/Fintech-beee/cash_app.git'
+	git 'https://github.com/Fintech-beee/cash_app.git'
 	}
 	}
 stage('2test&build'){
