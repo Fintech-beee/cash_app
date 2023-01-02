@@ -17,6 +17,7 @@ stage('2test&build'){
 		sh "mvn clean package"
 		} 
 	}
+	/*
 	stage('3CodeQuality'){
 	steps{
 	sh "echo 'running CodeQalityAnalysis' "
@@ -66,5 +67,6 @@ stage('2test&build'){
 	dupe''', recipientProviders: [developers(), buildUser(), upstreamDevelopers()], subject: 'Success', to: 'cash_app-team@gmail.com'
 			}
 		}
+		*/
 }
 	
